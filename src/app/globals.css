@@ -1,26 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@theme {
+  /* Yellow variants */
+  --color-custom-yellow-100: #f7f2d9;
+  --color-custom-yellow-200: #efe5b4;
+  --color-custom-yellow-300: #e7d98f;
+  --color-custom-yellow-400: #e2d06a;
+  --color-custom-yellow-500: #DEC648; /* Original yellow */
+  --color-custom-yellow-600: #c9b030;
+  --color-custom-yellow-700: #a89226;
+  --color-custom-yellow-800: #87741d;
+  --color-custom-yellow-900: #665615;
+  
+  /* Black variants */
+  --color-custom-black-100: #d9dfe3;
+  --color-custom-black-200: #b4bfc7;
+  --color-custom-black-300: #8e9fab;
+  --color-custom-black-400: #68808f;
+  --color-custom-black-500: #426273;
+  --color-custom-black-600: #2F4858; /* Original black */
+  --color-custom-black-700: #263a47;
+  --color-custom-black-800: #1c2c36;
+  --color-custom-black-900: #131e25;
+  
+  /* Grey variants */
+  --color-custom-grey-100: #f7f7f7;
+  --color-custom-grey-200: #eeeeee;
+  --color-custom-grey-300: #e2e2e2;
+  --color-custom-grey-400: #d4d4d4;
+  --color-custom-grey-500: #C5C5C5; /* Original grey */
+  --color-custom-grey-600: #a3a3a3;
+  --color-custom-grey-700: #818181;
+  --color-custom-grey-800: #606060;
+  --color-custom-grey-900: #3e3e3e;
+  
+  --font-sansation: 'Sansation', sans-serif;
 }
