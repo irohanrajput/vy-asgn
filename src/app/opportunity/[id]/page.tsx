@@ -1,4 +1,4 @@
-import { opportunities_data } from "@/dummy_data/oppurtunities";
+import { opportunities_data } from "@/dummy_data/opportunities";
 import OpportunityDetail from "@/components/OpportunityDetail";
 import { notFound } from "next/navigation";
 

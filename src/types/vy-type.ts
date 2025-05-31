@@ -13,15 +13,12 @@ export interface Opportunity {
   images?: string[];
   category?: string;
   duration?: string;
-
 }
 
 export interface OpportunityDetailProps {
   data: {
-    // Define your data structure here
     id?: string;
     title?: string;
-    // Add other properties as needed
     [key: string]: any;
   };
 }
