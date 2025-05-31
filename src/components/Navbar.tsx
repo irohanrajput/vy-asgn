@@ -3,9 +3,10 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { X } from "lucide-react";
 
 const Navbar: React.FC = () => {
+
   const [clicked, setClicked] = useState("opportunities");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -15,7 +16,7 @@ const Navbar: React.FC = () => {
         {/* Logo */}
         <div className="flex items-center">
           <Link href="/" className="text-xl">
-            <img src="logo.svg" alt="Logo" className="h-8 lg:h-auto" />
+            <img src="/logo.svg" alt="Logo" className="h-8 lg:h-auto" />
           </Link>
         </div>
 
@@ -56,8 +57,8 @@ const Navbar: React.FC = () => {
             href="#"
             className="p-2 flex items-center border rounded-full hover:bg-gray-100 border-gray-400 transition"
           >
-            <img src="lines.svg" className="mx-1" alt="Menu Icon" />
-            <img src="Group.svg" className="mx-1" alt="Profile Icon" />
+            <img src="/lines.svg" className="mx-1" alt="Menu Icon" />
+            <img src="/Group.svg" className="mx-1" alt="Profile Icon" />
           </Link>
         </div>
 
@@ -67,7 +68,7 @@ const Navbar: React.FC = () => {
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="p-2 hover:bg-gray-100 rounded-lg transition"
           >
-            {mobileMenuOpen ? <X size={24} /> : <img src="lines.svg" alt="" />}
+            {mobileMenuOpen ? <X size={24} /> : <img src="/lines.svg" alt="" />}
           </button>
         </div>
       </div>

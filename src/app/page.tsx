@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import OpportunitiesPage from "./opportunities/page";
 const LandingPage = () => {
   return (

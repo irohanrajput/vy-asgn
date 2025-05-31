@@ -21,13 +21,13 @@ export default function CategoryPanel() {
   return (
     <div className="w-full">
       {/* Desktop Version */}
-      <div className="hidden lg:flex items-center justify-between gap-4 px-16 py-4 w-full max-w-7xl mx-auto">
-        <div className="flex space-x-12">
+      <div className="hidden lg:flex items-center  justify-between gap-4 px-16 py-4 w-full max-w-7xl mx-auto">
+        <div className="flex space-x-12 ">
           {categories.map((category) => (
             <button
               key={category}
               onClick={() => setActive(category)}
-              className="flex flex-col hover:cursor-pointer items-center text-sm focus:outline-none"
+              className="flex hover:scale-110 transform transition-transform duration-150 flex-col hover:cursor-pointer items-center text-sm focus:outline-none"
             >
               <img 
                 src="CategoryPannel.svg" 

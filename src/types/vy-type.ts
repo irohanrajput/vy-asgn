@@ -13,12 +13,22 @@ export interface Opportunity {
   images?: string[];
   category?: string;
   duration?: string;
+  maxVolunteers?: number;
+  skills?: string[];
+  owner_name?: string;
 }
 
 export interface OpportunityDetailProps {
-  data: {
-    id?: string;
-    title?: string;
-    [key: string]: any;
-  };
+  data: Partial<Opportunity>;
+}
+
+
+export interface Reviews{
+  id:string;
+  name:string;
+  review: string;
+  member_since:Date;
+  rating: number;
+  date:Date;
+  opportunity_id:number;
 }
