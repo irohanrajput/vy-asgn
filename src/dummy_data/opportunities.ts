@@ -36,7 +36,7 @@ export const opportunities_data: Opportunity[] = [
       "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800", // Ladakh landscape
       "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800", // Photography tour
       "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800", // Mountain peaks
-      "https://images.unsplash.com/photo-1544551763-77400d71098b?w=800"  // Camera equipment
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800"  // Camera equipment
     ],
     description: "We expect photography guides to take tourists to the most scenic and photogenic locations in Ladakh while providing expert tips and instruction. Your role involves not just guiding but also teaching photography techniques suitable for capturing the unique landscapes and cultural heritage of the region. This includes organizing sunrise/sunset shoots, night photography sessions, and cultural photography opportunities in local monasteries and villages. Strong English communication skills are essential as you'll need to explain technical concepts clearly to an international audience. Knowledge of the local area, including hidden gems off the tourist track, is highly valuable. We're seeking someone who combines technical photography expertise with a passion for Ladakh's stunning landscapes and rich cultural traditions, creating memorable experiences for photography enthusiasts of all skill levels.",
     date: "2025-08-10",
