@@ -188,6 +188,8 @@ export const opportunities_data: Opportunity[] = [
     state: "Rajasthan",
     city: "Udaipur",
     tags: ["25h/week", "Hospitality", "Tourism", "Private Room"],
+    skills: ["Child Care", "Education", "Creativity", "Event Planning", "Communication"],
+
     duration: "At least 5 weeks",
     owner_name: "Maharana Pratap Singh",
     images: [
@@ -207,6 +209,7 @@ export const opportunities_data: Opportunity[] = [
     state: "Kerala",
     city: "Alleppey",
     tags: ["30h/week", "Tourism", "Customer Service", "Boat Cabin"],
+    skills: ["Child Care", "Education", "Creativity", "Event Planning", "Communication"],
     duration: "At least 4 weeks",
     owner_name: "Suresh Pillai",
     images: [
@@ -226,6 +229,7 @@ export const opportunities_data: Opportunity[] = [
     state: "Himachal Pradesh",
     city: "Andretta",
     tags: ["20h/week", "Arts", "Pottery", "Shared Room"],
+    skills: ["Child Care", "Education", "Creativity", "Event Planning", "Communication"],
     duration: "At least 6 weeks",
     owner_name: "Meera Sood",
     images: [
@@ -245,6 +249,7 @@ export const opportunities_data: Opportunity[] = [
     state: "Tamil Nadu",
     city: "Auroville",
     tags: ["15h/week", "Meditation", "Wellness", "Shared Room"],
+    skills: ["Child Care", "Education", "Creativity", "Event Planning", "Communication"],
     duration: "At least 3 weeks",
     owner_name: "Jean-Pierre Dubois",
     images: [
@@ -264,6 +269,7 @@ export const opportunities_data: Opportunity[] = [
     state: "Karnataka",
     city: "Madikeri",
     tags: ["30h/week", "Conservation", "Nature", "Dorm Bed"],
+    skills: ["Child Care", "Education", "Creativity", "Event Planning", "Communication"],
     duration: "At least 6 weeks",
     owner_name: "Dr. Ananya Rao",
     images: [
@@ -283,6 +289,7 @@ export const opportunities_data: Opportunity[] = [
     state: "Rajasthan",
     city: "Pushkar",
     tags: ["25h/week", "Animal Care", "Tourism", "Private Room"],
+    skills: ["Child Care", "Education", "Creativity", "Event Planning", "Communication"],
     duration: "At least 4 weeks",
     owner_name: "Govind Shekhawat",
     images: [
@@ -302,6 +309,7 @@ export const opportunities_data: Opportunity[] = [
     state: "Rajasthan",
     city: "Jaisalmer",
     tags: ["30h/week", "Hospitality", "Tourism", "Tent Space"],
+    skills: ["Child Care", "Education", "Creativity", "Event Planning", "Communication"],
     duration: "At least 5 weeks",
     owner_name: "Manveer Jaiswal",
     images: [
@@ -321,6 +329,7 @@ export const opportunities_data: Opportunity[] = [
     state: "Karnataka",
     city: "Hampi",
     tags: ["25h/week", "Cooking", "Organic Food", "Dorm Bed"],
+    skills: ["Child Care", "Education", "Creativity", "Event Planning", "Communication"],
     duration: "At least 4 weeks",
     owner_name: "Lakshmi Venkatesh",
     images: [
