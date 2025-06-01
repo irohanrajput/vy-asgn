@@ -1,7 +1,7 @@
 "use client";
 import { OpportunityDetailProps } from "@/types/vy-type";
 import { FC, useState } from "react";
-import { ArrowLeft, Share, Heart, Users, Clock } from "lucide-react";
+import { ArrowLeft, Share, Heart, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Reviews from "./ReviewsCard";
 

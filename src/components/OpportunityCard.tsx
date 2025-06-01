@@ -1,7 +1,6 @@
 import { Opportunity } from "@/types/vy-type";
 import Link from "next/link";
-import { BadgeCheck, MapPin, Leaf } from "lucide-react";
-
+import { Heart, MapPin } from "lucide-react";
 
 export default function OpportunityCard({ data }: { data: Opportunity }) {
   return (
@@ -9,7 +8,7 @@ export default function OpportunityCard({ data }: { data: Opportunity }) {
       href={`/opportunity/${data.id}`}
       className="block w-full max-w-xs mx-auto lg:mx-0 group"
     >
-      <div className="group-hover:scale-105 transform transition-transform duration-300 rounded-xl h-auto lg:h-[374px] w-full lg:w-[280px] overflow-hidden shadow-sm hover:shadow-md  bg-white relative">
+      <div className="group-hover:scale-105 transform transition-transform duration-300 rounded-lg h-auto lg:h-[374px] w-full lg:w-[280px] overflow-hidden shadow-sm hover:shadow-md  bg-white relative">
         <div className="relative">
           <div className="w-full h-64 sm:h-40 lg:h-48 overflow-hidden">
             <img
@@ -25,11 +24,14 @@ export default function OpportunityCard({ data }: { data: Opportunity }) {
               </h3>
             </div>
           </div>
-          <span className="absolute top-2 left-2 bg-purple-600 text-white text-xs font-semibold px-2 py-1 rounded">
-            NEW
-          </span>
-          <button className="absolute top-2 right-2 bg-white rounded-full p-1.5 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
-            <BadgeCheck size={14} className="text-yellow-500" />
+          <div className="absolute flex items-center top-2 w- bg-custom-purple text-white text-xs font- px-1 gap-1  py-1 rounded-r-lg overflow-hidden">
+            <span>
+              <img src="/vector.svg" alt="" />
+            </span>
+            <span>NEW</span>
+          </div>
+          <button className="absolute top-2 right-2 rounded-full p-1.5 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+            <Heart size={14} className="text-white" />
           </button>
         </div>
 
